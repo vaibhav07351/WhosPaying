@@ -1,0 +1,423 @@
+WHO'S PAYING — GOOGLE PLAY CONSOLE
+Complete step-by-step (2026)
+=================================
+
+Use this file as the only checklist. Copy the boxed values exactly.
+Do the steps in order. Do not skip privacy policy, Data safety, or screenshots.
+
+
+AAB ALREADY BUILT
+-----------------
+Download (save it, you will upload it in Step 7):
+https://expo.dev/artifacts/eas/xpmzkae-6WV0K_7Kk5aH8YUoxIZZd8BCDd0HmV8r6_E.aab
+
+Package inside this file (PERMANENT, must match):
+com.whospaying.app
+
+Expo project:
+https://expo.dev/accounts/vaibhav07351/projects/whos-paying
+
+
+================================================================
+STEP 1 — CREATE APP  (the screen you are on now)
+================================================================
+
+App name
+  Who's Paying
+
+Package name
+  com.whospaying.app
+
+  Type it exactly, all lowercase, no spaces.
+  This MUST match the AAB. If you type anything else, the upload will fail.
+  After the first upload this can never be changed or reused.
+
+Default language
+  English (United States) – en-US
+
+App or game
+  App
+
+Free or paid
+  Free
+  (You cannot switch Free → Paid after you publish.)
+
+Declarations — tick BOTH
+  [x] Confirm app meets the Developer Program Policies
+  [x] Accept US export laws
+      (This app has no custom encryption. Standard HTTPS/OS crypto is fine.
+       That is why we already set ITSAppUsesNonExemptEncryption = false.)
+
+If you also see "Play App Signing" on this screen or the next:
+  Accept it. EAS already created an upload keystore. Google should hold
+  the app signing key. Choose Google-generated key if asked.
+
+Click Create app.
+
+
+================================================================
+STEP 2 — HOST THE PRIVACY POLICY (do this before other forms)
+================================================================
+
+Play rejects apps with a missing or 404 privacy URL.
+
+1. Open privacy-policy.html in this project.
+2. Replace the contact sentence with your real email.
+3. Put the file on a public HTTPS page. Easiest options:
+   - GitHub Pages: create a public repo, put privacy-policy.html in it,
+     enable Pages, URL looks like https://YOURUSER.github.io/REPO/privacy-policy.html
+   - Any site you already own.
+4. Open the URL in an incognito window. It must load with no login.
+
+You need this URL for Store settings AND Data safety. Keep it handy.
+
+
+================================================================
+STEP 3 — DASHBOARD SETUP TASKS
+================================================================
+
+After Create app, Play Console shows a Dashboard with a "Set up your app"
+list. Work top to bottom. Typical items:
+
+  - Privacy policy
+  - App access
+  - Ads
+  - Content ratings
+  - Target audience and content
+  - News apps
+  - Data safety
+  - Store listing
+  - Select countries
+  - App category
+  - Contact details
+
+Left menu names can vary slightly. If a section is missing, skip it.
+If a new 2026 section appears that this file does not cover, answer
+honestly for a free offline name-wheel with no ads and no accounts.
+
+
+================================================================
+STEP 4 — STORE SETTINGS + CATEGORY + CONTACT
+================================================================
+
+Path: Grow users → Store presence → Store settings
+(or Dashboard → Store settings)
+
+App category
+  Category:     Entertainment
+  Tags:         Party  (add if available; skip if not)
+
+Contact details
+  Email (required):     your real email users can write to
+  Phone:                leave blank
+  Website:              privacy policy URL, or leave blank
+
+External marketing
+  Leave default unless you know you want marketing emails from Google.
+
+Save.
+
+
+================================================================
+STEP 5 — MAIN STORE LISTING
+================================================================
+
+Path: Grow users → Store presence → Main store listing
+
+App name
+  Who's Paying
+
+Short description  (80 chars max — this is 64)
+  Add names, violently spin the wheel, and see who pays.
+
+Full description  (paste as-is)
+-----
+Who's paying for dinner? Coffee? The cab?
+
+Add your friends to the wheel, tap SPIN, and let it rip. The wheel tears around and lands on one name. That's who pays.
+
+• Add and remove names in seconds
+• Names stay on your phone — no account, no ads
+• A loud, over-the-top spin so the group actually watches
+• Works offline
+
+Fair spin: the winner is picked at random, then the wheel lands on that slice. No fake near-misses.
+-----
+
+Graphics — required
+  Hi-res icon
+    File: assets/icon.png
+    Need: 512 x 512 PNG
+    If Play rejects the current icon, open it in any editor and export
+    512 x 512 PNG. Do not add rounded corners (Play rounds it).
+
+  Feature graphic  (REQUIRED)
+    Size: EXACTLY 1024 x 500 px
+    Format: JPEG or 24-bit PNG, NO transparency
+    Make one in Canva (search "Google Play feature graphic 1024x500"):
+      Dark background, the wheel, text: Who's Paying
+      Keep text in the center. No "Download" button. No Play Store badge.
+
+  Phone screenshots  (REQUIRED)
+    Minimum 2, better 4. Max 8.
+    Best size: 1080 x 1920 (portrait).
+    JPEG or 24-bit PNG, no transparency.
+    How to capture:
+      1. Run the app on a phone (Expo Go if versions match, or a preview APK).
+      2. Add 4 names, take a screenshot of the wheel.
+      3. Tap SPIN, take a screenshot while it spins.
+      4. Take a screenshot of the "is paying" winner card.
+      5. Crop to the app only if the screenshot includes the whole phone.
+    Suggested order:
+      1. Wheel with names
+      2. SPIN button
+      3. Wheel spinning
+      4. Winner overlay
+
+  7-inch / 10-inch tablet screenshots
+    Optional. Skip.
+
+  Promo video
+    Optional. Skip.
+
+Save.
+
+
+================================================================
+STEP 6 — APP CONTENT  (policy forms)
+================================================================
+
+Path: Policy and programs → App content
+Complete every card that shows "Incomplete".
+
+------------------------------------------------
+6a. Privacy policy
+------------------------------------------------
+  Privacy policy URL:   (the HTTPS URL from Step 2)
+  Save.
+
+------------------------------------------------
+6b. App access
+------------------------------------------------
+  All functionality is available without special access
+  (no login, no demo account needed)
+  Save.
+
+------------------------------------------------
+6c. Ads
+------------------------------------------------
+  No, my app does not contain ads
+  Save.
+
+------------------------------------------------
+6d. Content ratings  (IARC questionnaire)
+------------------------------------------------
+  Start questionnaire.
+  Email: your email
+  App category: Utility, Productivity, Communication, or Other / Entertainment
+    (pick Entertainment or Utility if both exist; not a game)
+
+  Answer NO to everything mature. Typical questions:
+
+  User-generated content shared with other users?     No
+    (names stay on the device; they are not posted publicly)
+  Users can communicate with each other?              No
+  Violence?                                           No
+  Blood / gore?                                       No
+  Sexual content / nudity?                            No
+  Language (profanity)?                               No
+  Controlled substances / alcohol / tobacco?          No
+    (the app is about who pays a bill, it does not depict drinking)
+  Gambling?                                           No
+  Purchases / in-app purchases?                       No
+  Location sharing?                                   No
+  Users can interact online?                          No
+  Miscellaneous (horror, discrimination, etc.)?       No
+
+  Submit. You get ratings instantly (usually Everyone / PEGI 3 / IARC 3+).
+  Apply the rating to the app.
+
+------------------------------------------------
+6e. Target audience and content
+------------------------------------------------
+  Target age:
+    Select 13–15, 16–17, and 18 and over
+    Do NOT select under 13 (that triggers Families policy).
+
+  Is this app primarily directed at children?         No
+  Appeal to children:                                 Not appealing to children
+    (or the lowest appeal option)
+
+  Store presence for children:                        No
+
+  Save.
+
+------------------------------------------------
+6f. News apps
+------------------------------------------------
+  My app is not a news app
+  Save.
+
+------------------------------------------------
+6g. Data safety
+------------------------------------------------
+  This app stores names ONLY on the device. It has no analytics,
+  no ads, no accounts, and does not send names to a server.
+
+  Overview
+    Does your app collect or share any of the required user data types?
+      No
+
+  Privacy policy URL
+    Same HTTPS URL as Step 2
+
+  If it still asks follow-ups after you chose No:
+    Data is encrypted in transit?     Not applicable / skip
+    Users can request deletion?       Yes — they can remove a name or uninstall
+    Independent security review?      No
+
+  Preview and submit.
+
+  Do NOT declare "Name" or "User-generated content" as collected.
+  Google's Data safety "collected" means data transmitted off the device.
+  Local-only names are not collected.
+
+------------------------------------------------
+6h. Other cards if they appear
+------------------------------------------------
+  Government apps:            No
+  Financial features:         No
+  Health:                     No
+  COVID-19 contact tracing:   No
+  Data deletion request URL:  use privacy policy URL if required
+  Photos and videos:          App does not access photos/videos
+  Foreground services:        No
+  Health Connect:             No
+  Android TV / Wear / Auto:   No — phone only
+  Sensitive permissions
+    (SMS, Call log, Location):  this app does not use them; skip / Not used
+
+  Government apps / financial / health: always No for Who's Paying.
+
+
+================================================================
+STEP 7 — UPLOAD THE AAB  (Internal testing first)
+================================================================
+
+Path: Test and release → Testing → Internal testing → Create new release
+
+1. Upload the .aab from the link at the top of this file.
+2. First time: Play App Signing
+     Use Google Play App Signing.
+     Let Google generate the app signing key (recommended).
+     EAS already has the upload key. Do not create a second local keystore.
+3. Release name:  1.0.0 (version code 2)
+4. Release notes:
+     First release. Add names. Spin. Someone pays.
+5. Next → Save → Review release → Start rollout to Internal testing.
+
+Add yourself as an internal tester:
+  Testers tab → create an email list → add your Gmail
+  Copy the opt-in link, open it on your phone, install from Play Store.
+
+Confirm the app opens, names save, and SPIN works.
+
+
+================================================================
+STEP 8 — CLOSED TESTING  (needed for new personal accounts)
+================================================================
+
+If your Play developer account is a PERSONAL account created after
+13 November 2023, Production stays locked until you finish this.
+
+Path: Test and release → Testing → Closed testing
+  Create track if asked (default "Closed testing" is fine)
+  Create new release → use the same 1.0.0 AAB (or Promote from internal)
+  Release notes: same as Step 7
+  Roll out to Closed testing
+
+Testers
+  Testers tab → Create email list
+  Add at least 12 Gmail addresses of real people
+  Each person must:
+    1. Open the opt-in link
+    2. Accept to become a tester
+    3. Install the app from the Play Store testing page
+
+Rules Google actually checks
+  - 12 testers opted in
+  - Continuously opted in for the last 14 days
+  - Adding emails without them opting in does NOT count
+
+Share the opt-in link with friends. Ask them to leave the app installed
+for 2 weeks and not leave the test.
+
+Wait 14 days. Watch the Dashboard progress toward production access.
+
+
+================================================================
+STEP 9 — COUNTRIES
+================================================================
+
+Path: Test and release → Production → Countries/regions
+  (or Dashboard → Select countries)
+
+  Choose All countries, or only the countries you want.
+  You can do this before production is unlocked.
+  Save.
+
+
+================================================================
+STEP 10 — APPLY FOR PRODUCTION, THEN PUBLISH
+================================================================
+
+When Dashboard shows you met the 12 testers / 14 days rule
+(or you have an Organization account, which skips that rule):
+
+1. Dashboard → Apply for production access
+2. Answer honestly:
+     What is the app?           Name wheel that picks who pays
+     How did you test?          Closed test with friends; they added names and spun
+     Ready for production?      Yes, no known crashes
+3. Wait for Google (often 1–7 days).
+
+Then:
+  Test and release → Production → Create new release
+  Promote the closed-testing release (do not upload a new AAB unless you changed code)
+  Release notes:
+    First release. Add names. Spin. Someone pays.
+  Review → Start rollout to Production (100%)
+
+First production review is usually 1–7 days.
+
+
+================================================================
+LATER UPDATES
+================================================================
+
+In the project, bump version in app.json:
+  version: "1.0.1"
+  android.versionCode: 2
+
+Then:
+  eas build -p android --profile production
+  Upload the new AAB to Internal → Closed or Production.
+
+Always keep using the same Expo account (vaibhav07351).
+The Android upload keystore lives there. Losing that account
+makes updates painful.
+
+
+================================================================
+QUICK COPY BOX — CREATE APP SCREEN
+================================================================
+
+  App name:           Who's Paying
+  Package name:       com.whospaying.app
+  Default language:   English (United States) – en-US
+  Type:               App
+  Price:              Free
+  Policies:           checked
+  US export laws:     checked
+
+Then click Create app and continue from Step 2.

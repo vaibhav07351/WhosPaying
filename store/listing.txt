@@ -1,0 +1,5 @@
+All Play Console copy and every later step are in one file:
+
+  store/PLAY_STORE_GUIDE.txt
+
+Open that file and start at STEP 1 (the Create app screen).
